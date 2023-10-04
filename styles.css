@@ -1,0 +1,68 @@
+   @import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Poppins:ital,wght@1,300;1,600&family=Rubik&family=Secular+One&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    background-image: url(https://img.freepik.com/fotos-premium/saboroso-hamburguer-artesanal-com-pao-preto-no-fundo-preto_307993-1183.jpg);
+    
+    
+
+    
+}
+
+.container-buttons {
+    margin: 30px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+button {
+
+    background-color: #e3f707;
+    border: none;
+    border-radius: 5px;
+    color: #000000;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 110px;
+
+}
+button:hover {
+    opacity: 0.5;
+}
+ul {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    gap: 20px;
+    justify-content: center;
+}
+li {
+    border: 2px solid #f517d4;
+    border-radius: 5px;
+    padding: 5px;
+    
+    
+
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+p {
+    color: #f2f2f2;
+    
+}
+.item-price {
+    font-weight: bold;
+    color: #eef206;
+}
